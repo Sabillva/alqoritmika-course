@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.article-list {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.article {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+}
+
+.article:last-child {
+  border-bottom: none;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.author-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.article-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 5px 0 10px;
+}
+
+.article-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.article-details {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #888;
+}
+
+.article-details span {
+  margin-right: 10px;
+}
+
+.tag {
+  background-color: #ddd;
+  border-radius: 3px;
+  padding: 3px 6px;
+  font-size: 12px;
+}
+
+.save-button {
+  background: none;
+  border: none;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.save-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.save-button:hover .save-icon {
+  opacity: 0.8;
+}
